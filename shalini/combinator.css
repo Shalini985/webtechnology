@@ -1,0 +1,16 @@
+div p{
+    color:rgb(18, 214, 149);
+}
+div > p {
+    color:rgb(47, 0, 255);
+}
+/*Adjecant sibling selector*/
+div + p{
+
+    color:aqua;
+}
+/* genaral sibling selctor */
+div ~ p {
+
+    color: violet;
+}
